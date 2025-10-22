@@ -1,90 +1,159 @@
-.background {
-   background-image: url(../image/banerhome.png);
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   position: relative;
-   height: 34rem;
-}
+@media (min-width : 300px) and (max-width : 768px) {
+   .background {
+      background-image: url(../image/banerhome.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 34rem;
+   }
 
-body {
-   margin: 0rem;
-   padding: 0rem;
-}
+   body {
+      margin: 0rem;
+      padding: 0rem;
+   }
 
-.logo img {
-   width: 20rem;
-   height: 8rem;
-   margin-left: 15rem;
-}
+   .logo img {
+      width: 20rem;
+      height: 8rem;
+      margin-left: 11rem;
+   }
 
-.headnav {
-   position: absolute;
-   margin-left: 19rem;
-   margin-bottom: 19rem;
-   bottom: 1.9rem;
-}
+   .headnav {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-top: -4rem;
 
-.headnav ul {
-   list-style: none;
+   }
 
-}
+   .headnav ul {
+      list-style: none;
+      padding: 1em 2em;
+   }
 
-.headnav a {
-   text-decoration: none;
-   color: black;
-}
+   .headnav li {
+      padding: 0.3em 0.1em;
+      margin-bottom: 0.4rem;
+   }
 
-.recherche input {
-   outline: none;
-   border: none;
-   background-color: transparent;
-}
+   .headnav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: large;
+   }
 
-#home {
-   position: absolute;
-   bottom: 5.9rem;
-   font-size: 1.3rem;
-}
+   .recherche input {
+      outline: none;
+      border: none;
+      background-color: transparent;
+   }
 
-#categori {
-   position: absolute;
-   bottom: 4rem;
-   font-size: 1.3rem;
-}
 
-#produit {
-   position: absolute;
-   bottom: 2rem;
-   font-size: 1.3rem;
-}
 
-#faq {
-   position: absolute;
-   bottom: 0.02rem;
-   font-size: 1.3rem;
-}
+   .recherche {
+      border: 0.1rem solid black;
+      border-radius: 2rem;
+      width: 7.5rem;
+      height: 0.4rem;
+      display: flex;
+      align-items: center;
+      padding: 0.78rem;
+      margin-top: -1.4rem;
 
-.recherche {
-   border: 0.1rem solid black;
-   border-radius: 2rem;
-   width: 7.5rem;
-   height: 0.4rem;
-   display: flex;
-   align-items: center;
-   padding: 12.5px;
-   position: absolute;
-   top: 2rem;
-}
-.titre-banner{
-   margin-top: 11.2rem;
-   margin-left: 4rem;
-}
-#btn-banner{
-   background-color: black;
-   color: white;
-   border-radius: 2rem;
-   height: 2.4rem;
-   width: 10rem;
+   }
+
+   .titre-banner {
+      margin-left: 3.3rem;
+   }
+
+   #btn-banner {
+      background-color: black;
+      color: white;
+      border-radius: 2rem;
+      height: 2.4rem;
+      width: 10rem;
+   }
+
+   footer {
+      
+      background-color: #A6A7A1;
+      width: 100%;
+      height: 30rem;
+   }
+
+   footer img {
+      width: 20rem;
+      height: 8rem;
+      margin-left: 12rem;
+   }
+
+   footer .alllinks {
+      display: flex;
+      justify-content: space-around;
+   }
+
+   footer .alllinks .quicklinks .social_media {
+      margin-top: 4rem;
+   }
+
+   footer .alllinks .quicklinks .social_media i {
+      margin-right: 1.5rem;
+   }
+
+   footer .alllinks a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+
+   }
+
+   footer .alllinks h3 {
+      color: rgb(1, 1, 154);
+   }
+
+   footer .social_media #i1 {
+     
+      cursor: pointer;
+   }
+
+   footer .social_media #i2 {
    
+      cursor: pointer;
+   }
+
+   footer .social_media #i3 {
+      
+      cursor: pointer;
+   }
+   #btn-galleri button{
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      border: none;
+      padding-top: 0.7rem;
+      padding-left: 1.3rem;
+
+   }
+
+   #btn-galleri{
+      background-color: black;
+      color: white;
+      border-radius: 2rem;
+      height: 2.4rem;
+      width: 10rem;
+      margin-left: 13rem;
+      margin-top: 1rem;
+   }
+   #pr1{
+      width: 19rem;
+   }
+
+
+
+
+
+
+
 }
