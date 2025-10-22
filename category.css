@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+/* barre de navigation */
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+button {
+    font: inherit ;
+    border: none;
+    background: none;
+    text-align: left;
+}
+input {
+    font: inherit; 
+    background: transparent;
+    border: none;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #BAA8A8;
+}
+.logo-responsive {
+    transform: scale(0.9);
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+nav ul li{
+    padding: 1em 2em;
+}
+.search-box{
+    border: 1px solid black;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2.3rem;
+    border-radius: 1em;
+    width:60% ;
+} 
+
+.mobile-imag div img{
+    width: 14rem;
+    height: 13rem;
+    border-radius: 4rem;   
+}
+.mobile-imag {
+    margin-left: 17rem;
+    display: grid;
+    row-gap: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2.5rem;
+}
+.mobile-imag button{
+   margin-left: 2rem;
+   width: 10rem;
+   border-radius: 4rem;
+   border: 0.5rem solid black;
+   position: relative;
+   text-align: center;
+   background-color: black;
+   color: white;
+}
+.img-section{
+    background-color:  #F5F5DC;
+    margin-top: -1.2rem;
+    margin-bottom: -1.4rem;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 30rem;
+    background-color: #A6A7A1;
+}
+footer img{
+    width: 18rem;
+    height: 9rem;
+    margin-left: 16rem;
+}
+
+footer .alllinks{
+    display: flex;
+    justify-content: space-around;
+}
+footer .alllinks .quicklinks .social_media{
+    margin-top: 4rem;
+}
+footer .alllinks .quicklinks .social_media i{
+    margin-right: 1.5rem;
+}
+footer .alllinks  a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+
+}
+
+footer .alllinks h3{
+    color: blue;
+}
+footer .social_media #i1{
+    color: darkgreen;
+    cursor: pointer;
+}
+footer .social_media #i2{
+    color: blue;
+    cursor: pointer;
+}
+footer .social_media #i3{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+
+
+@media (min-width: 1024px){
+  .mobile-imag{
+         display: grid;    
+         grid-template-columns: repeat(2,1fr);
+         grid-row: 30px;
+         
+    
+  }
+  .mobile-imag div{
+    padding-left: 12rem;
+    padding-top: 6rem;
+    padding-right: 0rem;
+    
+  }
+
+  #hygiene{
+    width: 20rem;
+  }
+  
+
+ header{
+    display: flex;
+    flex-direction: row;
+ }
+
+ header nav ul{
+    display: flex;
+ }
+
+ .search-box{
+    display: flex;
+    justify-content: center;
+} 
+
+}
+
