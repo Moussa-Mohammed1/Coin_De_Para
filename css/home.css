@@ -1,0 +1,90 @@
+.background {
+   background-image: url(../image/banerhome.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 34rem;
+}
+
+body {
+   margin: 0rem;
+   padding: 0rem;
+}
+
+.logo img {
+   width: 20rem;
+   height: 8rem;
+   margin-left: 15rem;
+}
+
+.headnav {
+   position: absolute;
+   margin-left: 19rem;
+   margin-bottom: 19rem;
+   bottom: 1.9rem;
+}
+
+.headnav ul {
+   list-style: none;
+
+}
+
+.headnav a {
+   text-decoration: none;
+   color: black;
+}
+
+.recherche input {
+   outline: none;
+   border: none;
+   background-color: transparent;
+}
+
+#home {
+   position: absolute;
+   bottom: 5.9rem;
+   font-size: 1.3rem;
+}
+
+#categori {
+   position: absolute;
+   bottom: 4rem;
+   font-size: 1.3rem;
+}
+
+#produit {
+   position: absolute;
+   bottom: 2rem;
+   font-size: 1.3rem;
+}
+
+#faq {
+   position: absolute;
+   bottom: 0.02rem;
+   font-size: 1.3rem;
+}
+
+.recherche {
+   border: 0.1rem solid black;
+   border-radius: 2rem;
+   width: 7.5rem;
+   height: 0.4rem;
+   display: flex;
+   align-items: center;
+   padding: 12.5px;
+   position: absolute;
+   top: 2rem;
+}
+.titre-banner{
+   margin-top: 11.2rem;
+   margin-left: 4rem;
+}
+#btn-banner{
+   background-color: black;
+   color: white;
+   border-radius: 2rem;
+   height: 2.4rem;
+   width: 10rem;
+   
+}
