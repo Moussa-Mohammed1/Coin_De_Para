@@ -353,12 +353,12 @@ color: blue;
 
 .search-box{
     position: absolute;
-    left: 750px;
-    top: 150px;
-     width:400px ;
+    left: 47rem;
+    top: 9rem;
+     width:25rem;
 }
 header nav{
-margin-left: 240px;
+margin-left: 15rem;
 }
 header nav ul li:hover{
 color: white;
