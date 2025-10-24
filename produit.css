@@ -351,17 +351,11 @@ color: blue;
 }
 
 
-.search-box {
-    width: 90%;
-    max-width: 400px;
-    border: 1px solid black;
-    border-radius: 1rem;
-    padding: 0.6rem 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-left: 780px;
-    margin-top: -100px;
+.search-box{
+    position: absolute;
+    left: 47rem;
+    top: 9rem;
+     width:25rem;
 }
 header nav{
 margin-left: 15rem;
