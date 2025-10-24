@@ -328,6 +328,10 @@ h1 strong{
     justify-content: space-around;  
     flex-direction: row;
     }
+    nav ul{
+        display: flex;
+    }
+    
 }
 
 
