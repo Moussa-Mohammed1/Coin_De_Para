@@ -61,7 +61,10 @@ nav ul li{
     margin-top: 1rem;
     margin-bottom: 2.3rem;
     border-radius: 1rem;
-    width:70%;
+    width:30%;
+    margin-left: 450px;
+    margin-top: -20px;
+    
 }
 .sbox-content {
     width: 100%;
