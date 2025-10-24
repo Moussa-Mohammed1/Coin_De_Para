@@ -146,6 +146,7 @@
       width: 10rem;
       margin-left: 13rem;
       margin-top: 1rem;
+      outline: none;
    }
 
    #pr1 {
@@ -189,12 +190,14 @@
       margin-left: 8.6rem;
       border-radius: 3rem;
    }
-   #btn-seemore button{
+
+   #btn-seemore button {
       background-color: transparent;
       color: rgb(255, 255, 255);
       border: none;
       padding-top: 0.7rem;
       padding-left: 1.5rem;
+      outline: none;
    }
 
    #btn-seemore {
@@ -206,10 +209,257 @@
       margin-left: 13rem;
       margin-top: 1rem;
       margin-bottom: 1rem;
+      outline: none;
+   }
+
+   #btn-seemore :hover {
+      background-color: #A6A7A1;
+
+   }
+
+   #btn-seemore button :hover {
+      background-color: #A6A7A1;
+   }
+}
+
+@media (min-width : 1120px) {
+
+   .background {
+      background-image: url(../image/banerhome.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 55rem;
+   }
+
+   body {
+      margin: 0rem;
+      padding: 0rem;
+   }
+
+   .headnav ul {
+      list-style: none;
+      display: flex;
+      gap: 4rem;
+      justify-content: end;
+      margin-right: 15rem;
+      margin-top: -7rem;
+
+   }
+
+   .headnav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 1.1rem;
+      font-family: 'poppins', sans-serif;
+   }
+
+   .recherche input {
+      outline: none;
+      border: none;
+      background-color: transparent;
+
    }
 
 
 
+   .recherche {
+      position: absolute;
+      border: 0.1rem solid black;
+      border-radius: 0.9rem;
+      width: 24rem;
+      height: 0.7rem;
+      display: flex;
+      align-items: center;
+      padding: 0.78rem;
+      margin-top: -1.4rem;
+      left: 36.5rem;
+      bottom: 26rem;
+
+   }
+
+   .logo img {
+      width: 22rem;
+      height: 9rem;
+      margin-left: 1rem;
+   }
+
+   .titre-banner {
+      position: absolute;
+      top: 17rem;
+      left: 7.5rem;
+      font-size: 1.4rem;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   #btn-banner {
+      background-color: black;
+      color: white;
+      border-radius: 2rem;
+      height: 3.1rem;
+      width: 15rem;
+   }
+
+   #btn-galleri button {
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      border: none;
+      padding-top: 0.7rem;
+      padding-left: 1.3rem;
+
+   }
+
+   #btn-galleri {
+      background-color: black;
+      color: white;
+      border-radius: 2rem;
+      margin-left: 28rem;
+      margin-top: 2rem;
+      outline: none;
+      width: 18rem;
+      height: 2.5rem;
+      padding-left: 7rem;
+
+    
+   }
+
+   #pr1 {
+      width: 22rem;
+      margin-top: 2rem;
+      margin-left: 8.6rem;
+      border-radius: 3rem;
+      }
+
+   #pr2 {
+      width: 22rem;
+      margin-top: 2rem;
+      margin-left: 8.6rem;
+      border-radius: 3rem;
+   }
+
+   #pr3 {
+      width: 55rem;
+      margin-top: 2rem;
+      margin-left: 12rem;
+      border-radius: 9rem;
+      height: 29rem;
+
+   }
+
+
+   .produit3 {
+      margin-top: 3rem;
+      
+   }
+
+   #pr4 {
+      width: 20rem;
+      margin-top: 2rem;
+      margin-left: 8.6rem;
+      border-radius: 3rem;
+   }
+
+   #pr5 {
+      width: 20rem;
+      margin-top: 2rem;
+      margin-left: 8.6rem;
+      border-radius: 3rem;
+   }
+
+   #pr6 {
+      width: 20rem;
+      margin-top: 2rem;
+      margin-left: 8.6rem;
+      border-radius: 3rem;
+   }
+
+   #btn-seemore button {
+      background-color: transparent;
+      color: rgb(255, 255, 255);
+      border: none;
+      padding-top: 0.7rem;
+      padding-left: 1.5rem;
+      outline: none;
+   }
+
+   #btn-seemore {
+      background-color: black;
+      color: white;
+      border-radius: 2rem;
+      height: 3.1rem;
+      width: 14rem;
+      margin-top: 4rem;
+      margin-left: 33rem;
+      padding-top: 1rem;
+      padding-left: 4rem;
+      margin-bottom: 1rem;
+   }
+
+   .produit1-2 {
+      display: flex;
+      justify-content: center;
+      margin-right: 9rem;
+
+   }
+
+   .produit4-6 {
+      display: flex;
+      justify-content: center;
+      margin-right: 8rem;
+   }
+
+   footer {
+
+      background-color: #A6A7A1;
+      width: 100%;
+      height: 30rem;
+   }
+
+   footer img {
+      width: 20rem;
+      height: 8rem;
+      margin-left: 32rem;
+   }
+
+   footer .alllinks {
+      display: flex;
+      justify-content: space-around;
+   }
+
+   footer .alllinks .quicklinks .social_media {
+      margin-top: 4rem;
+   }
+
+   footer .alllinks .quicklinks .social_media i {
+      margin-right: 1.5rem;
+   }
+
+   footer .alllinks a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+
+   }
+
+   footer .alllinks h3 {
+      color: rgb(1, 1, 154);
+   }
+
+   footer .social_media #i1 {
+
+      cursor: pointer;
+   }
+
+   footer .social_media #i2 {
+
+      cursor: pointer;
+   }
+
+   footer .social_media #i3 {
+
+      cursor: pointer;
+   }
 
 
 
