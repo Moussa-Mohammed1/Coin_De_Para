@@ -292,6 +292,8 @@ header nav ul li a:hover{
   header {
     display: flex;
     flex-direction: row;
+      position: relative;
+    height: 250px;
   }
   header nav ul{
     display: flex;
@@ -348,10 +350,7 @@ color: blue;
     visibility: visible;
 }
 
-header{
-    position: relative;
-    height: 250px;
-}
+
 .search-box{
     position: absolute;
     left: 750px;
@@ -359,7 +358,7 @@ header{
      width:400px ;
 }
 header nav{
-margin-left: 500px;
+margin-left: 240px;
 }
 header nav ul li:hover{
 color: white;
